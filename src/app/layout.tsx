@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 import './globals.css'
 import { Poppins } from 'next/font/google'
-import Header from './components/Header'
+import Header from '../components/Header'
 
 const poppins = Poppins({ subsets: ['latin'], weight: [
   '400',
